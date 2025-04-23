@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 98%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 224 64% 33%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 220 30% 60%;
+  --secondary-foreground: 222 47% 11%;
+  --accent: 30 100% 50%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+  --chart-1: 224 64% 33%;
+  --chart-2: 220 30% 60%;
+  --chart-3: 30 100% 50%;
+  --chart-4: 30 70% 60%;
+  --chart-5: 220 20% 80%;
+  --sidebar-background: 224 64% 33%;
+  --sidebar-foreground: 210 40% 98%;
+  --sidebar-primary: 30 100% 50%;
+  --sidebar-primary-foreground: 210 40% 98%;
+  --sidebar-accent: 220 30% 60%;
+  --sidebar-accent-foreground: 210 40% 98%;
+  --sidebar-border: 224 50% 45%;
+  --sidebar-ring: 210 40% 98%;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 224 64% 33%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 220 30% 60%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 30 100% 50%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-cairo antialiased bg-background text-foreground;
+  }
+}
+
+html {
+  direction: rtl;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+.rtl-table th,
+.rtl-table td {
+  text-align: right;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  text-align: right;
+}

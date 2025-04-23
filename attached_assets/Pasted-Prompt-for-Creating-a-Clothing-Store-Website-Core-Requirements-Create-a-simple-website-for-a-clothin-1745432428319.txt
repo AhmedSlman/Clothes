@@ -1,0 +1,90 @@
+Prompt for Creating a Clothing Store Website
+Core Requirements
+Create a simple website for a clothing store that displays products and allows customers to contact the store owner. The site should be user-friendly with an elegant design and harmonious color scheme. The entire website must be in Arabic language only.
+Website Structure
+
+Homepage:
+
+Featured display of latest products
+Clear navigation bar for different sections
+Attractive welcome banner
+All text and content in Arabic
+
+
+Category Pages:
+
+Products divided by categories (Men, Women, Children)
+Filtering options by sizes and types
+Arabic category names and descriptions
+
+
+Product Page:
+
+High-quality product images
+Detailed information (price, available sizes, colors)
+WhatsApp button for direct communication with the store owner
+Phone number and other contact information
+All product details in Arabic language
+
+
+About Us Page:
+
+Store information
+Business hours
+Address
+Brand/store story
+Complete Arabic content
+
+
+Contact Page:
+
+Inquiry form in Arabic
+Contact details
+Map showing store location
+All form fields and labels in Arabic
+
+
+
+UI/UX Design
+Language Considerations
+
+Right-to-left (RTL) layout optimized for Arabic reading
+Arabic typography with appropriate font selection
+All buttons, menus, and navigation elements in Arabic
+Error messages and notifications in Arabic
+
+Color Palette
+Use a harmonious color palette consisting of:
+
+Primary color: (Suggest using shades of navy blue or olive green)
+Secondary color: (A lighter shade of the primary color)
+Neutral color: (White or light gray for backgrounds)
+Accent color: (Orange or yellow for buttons and emphasis elements)
+
+Visual Elements
+
+Arabic-optimized fonts that are clear and readable
+Adequate white space between elements
+Clear and simple icons
+High-quality product images
+Fast page loading
+
+User Experience
+
+Smooth navigation between pages
+Clear and accessible menus in Arabic
+Attractive product displays
+Prominent WhatsApp button with Arabic text
+Responsive design for all devices (mobile, tablet, desktop)
+Easy product search functionality with Arabic support
+
+Technical Features
+
+User-friendly admin interface in Arabic for product management
+Ability to add and modify products
+Arabic SEO optimization
+High loading speed
+Cross-browser compatibility
+Data security
+Full Arabic language support throughout the admin panel and user interface
+
